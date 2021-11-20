@@ -1,0 +1,409 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>2OT.CN - 一个纯粹的工具类网站</title>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="Javascript/Flot/excanvas.js"></script>
+	<![endif]-->
+	<!-- The Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Oswald|Droid+Sans:400,700" rel="stylesheet" />
+	<!-- The Main CSS File -->
+	<link rel="stylesheet" href="CSS/style.css" />
+	<!-- jQuery -->
+	<script src="Javascript/jQuery/jquery-1.7.2.min.js"></script>
+	<!-- Flot -->
+	<script src="Javascript/Flot/jquery.flot.js"></script>
+	<script src="Javascript/Flot/jquery.flot.resize.js"></script>
+	<script src="Javascript/Flot/jquery.flot.pie.js"></script>
+	<!-- DataTables -->
+	<script src="Javascript/DataTables/jquery.dataTables.min.js"></script>
+	<!-- ColResizable -->
+	<script src="Javascript/ColResizable/colResizable-1.3.js"></script>
+	<!-- jQuryUI -->
+	<script src="Javascript/jQueryUI/jquery-ui-1.8.21.min.js"></script>
+	<!-- Uniform -->
+	<script src="Javascript/Uniform/jquery.uniform.js"></script>
+	<!-- Tipsy -->
+	<script src="Javascript/Tipsy/jquery.tipsy.js"></script>
+	<!-- Elastic -->
+	<script src="Javascript/Elastic/jquery.elastic.js"></script>
+	<!-- ColorPicker -->
+	<script src="Javascript/ColorPicker/colorpicker.js"></script>
+	<!-- SuperTextarea -->
+	<script src="Javascript/SuperTextarea/jquery.supertextarea.min.js"></script>
+	<!-- UISpinner -->
+	<script src="Javascript/UISpinner/ui.spinner.js"></script>
+	<!-- MaskedInput -->
+	<script src="Javascript/MaskedInput/jquery.maskedinput-1.3.js"></script>
+	<!-- ClEditor -->
+	<script src="Javascript/ClEditor/jquery.cleditor.js"></script>
+	<!-- Full Calendar -->
+	<script src="Javascript/FullCalendar/fullcalendar.js"></script>
+	<!-- Color Box -->
+	<script src="Javascript/ColorBox/jquery.colorbox.js"></script>
+	<!-- Kanrisha Script -->
+	<script src="Javascript/kanrisha.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<!-- Change Pattern -->
+	<div class="changePattern">
+		<span id="pattern1"></span>
+		<span id="pattern2"></span>
+		<span id="pattern3"></span>
+		<span id="pattern4"></span>
+		<span id="pattern5"></span>
+		<span id="pattern6"></span>
+	</div>
+	<!-- Top Panel -->
+	<div class="top_panel">
+		<div class="wrapper">
+			<div class="user">
+				<img src="Images/user_avatar.png" alt="user_avatar" class="user_avatar" />
+				<span class="label">Ivan</span>
+				<!-- Top Tooltip -->
+				<div class="top_tooltip">
+					<div>
+						<ul class="user_options">
+							<li class="i_16_profile"><a href="#" title="Profile"></a></li>
+							<li class="i_16_tasks"><a href="#" title="Tasks"></a></li>
+							<li class="i_16_notes"><a href="#" title="Notes"></a></li>
+							<li class="i_16_options"><a href="#" title="Options"></a></li>
+							<li class="i_16_logout"><a href="#" title="Log-Out"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="top_links">
+				<ul>
+				
+					<li class="i_22_settings">
+						<a href="#" title="Settings">
+							<span class="label">Settings</span>
+						</a>
+					</li>
+					<li class="i_22_upload">
+						<a href="#" title="Upload">
+							<span class="label">Upload</span>
+						</a>
+						<!-- Drop Menu -->
+						<ul class="drop_menu menu_with_icons right_direction">
+							<li>
+								<a class="i_16_add" href="#" title="New Flie">
+									<span class="label">New File</span>
+								</a>									
+							</li>
+							<li>
+								<a class="i_16_progress" href="#" title="2 Files Left">
+									<span class="label">Files Left</span>
+									<span class="small_count">2</span>
+								</a>
+							</li>
+							<li>
+								<a class="i_16_files" href="#" title="Browse Files">
+									<span class="label">Browse Files</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="i_22_inbox top_inbox">
+						<a href="mailto:postmaster@2ot.cn" target="_blank" title="发邮件给我">
+							<span class="label lasCount">发邮件</span>
+							
+						</a>
+					</li>
+					<li class="i_22_pages">
+						<a href="http://22247.cn/" target="_blank" title="快捷导航">
+							<span class="label">快捷导航</span>
+						</a>
+					
+					</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<header class="main_header">
+        <div class="wrapper">
+			<div class="logo">
+				<a href="#" title="一个纯粹的工具类网站">
+					<img src="Images/logo.png" alt="kanrisha_logo" />
+				</a>
+			</div>
+			<nav class="top_buttons">
+				<ul>
+					<li class="big_button">
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="http://www.msidc.cn/" target="_blank" title="高防服务器" class="the_button">
+										<span class="i_32_statistic"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+						
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="mailto:postmaster@2ot.cn" target="_blank" title="联系我" class="the_button">
+										<span class="i_32_support"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+						<div class="big_count">
+							<span>1</span>
+						</div>
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=422&userCode=l3fcti6t" title="阿里云小站" target="_blank" class="the_button">
+										<span class="i_32_delivery"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+						<div class="out_border">
+
+								       <div class="widget_contents lPreview">
+									<a href="http://2ot.cn/pay.jpg" title="感谢打赏" class="lightbox">
+										<img src="Images/Icons/32/i_32_dollar.png" alt="lightbox"/></a>	
+										</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="wrapper small_menu">
+		<ul class="menu_small_buttons">
+			<li><a title="General Info" class="i_22_dashboard smActive" href="index.html"></a></li>
+			<li><a title="Your Messages" class="i_22_inbox" href="soft.html"></a></li>
+			<li><a title="Some Rows" class="i_22_tables" href="msdn.html"></a></li>
+			
+		</ul>
+	</div>
+
+	<div class="wrapper contents_wrapper">
+		
+		<aside class="sidebar">
+			<ul class="tab_nav">
+				<li class="active_tab i_32_dashboard">
+					<a href="index.html" title="General Info">
+						<span class="tab_label">首页</span>
+						<span class="tab_info">Index</span>
+					</a>
+				</li>
+				<li class="i_32_inbox">
+					<a href="soft.html" title="Your Messages">
+						<span class="tab_label">SOFT</span>
+						<span class="tab_info">一些软件</span>
+					</a>
+				</li>
+				<li class="i_32_tables">
+					<a href="msdn.html" title="Some Rows">
+						<span class="tab_label">MSDN</span>
+						<span class="tab_info">源自官方原版</span>
+					</a>
+				</li>
+				
+			</ul>
+		</aside>
+
+		<div class="contents">
+			<div class="grid_wrapper">
+
+				<div class="g_6 contents_header">
+					<h3 class="i_16_dashboard tab_label">用前注意：</h3>
+					<div><span class="label">本站仅为个人性质的网络工具和原版软件信息收录站点。本站不保证所提供软件或程序的完整性和安全性。
+请在使用前查毒 (这也是您使用其它网络资源所必须注意的) </span></div>
+				</div>
+				<div class="g_6 contents_options">
+					<div class="simple_buttons">
+						<div class="bwIcon i_16_help"><a href="sm.html" target="_blank"><span class="label">说明</span></a></div>
+					</div>
+
+			
+				</div>
+				<div class="g_12 separator"><span></span></div>
+			
+							<div class="g_12" id="table_wTabs">
+					<div class="widget_header wwOptions">
+						<h4 class="widget_header_title wwIcon i_16_tabs">官方下载</h4>
+						<ul class="w_Tabs">
+							<li><a href="#table_wTabs-1" title="推荐软件">推荐软件</a></li>
+							<li><a href="#table_wTabs-2" title="">其他</a></li>
+						</ul>
+					</div>
+					<div class="widget_contents">
+						<div id="table_wTabs-1">
+						<div class="widget_contents iphO">
+						<div class="iPreview" align="center"><a href="https://pc.weixin.qq.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/11488_48_1616464914.png" alt="icon" width="40" height="40" />  <span class="label">微信</span></a></div>
+						<div class="iPreview">
+						  <div align="center"><a href="https://im.qq.com/pcqq" target="_blank">
+				          <img src="https://pc3.gtimg.com/softmgr/logo/48/2_48_1482283025.png" alt="icon" width="40" height="40" />  <span class="label">QQ</span></a></div>
+						</div>
+						<div class="iPreview" align="center"><a href="http://qq.pinyin.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/7_48_1458184328.png" alt="icon" width="40" height="40" />  <span class="label">QQ拼音</span></a></div>
+						<div class="iPreview" align="center"><a href="https://pinyin.sogou.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/12489_48_1470986051.png" alt="icon" width="40" height="40" />  <span class="label">搜狗拼音</span></a></div>
+						<div class="iPreview" align="center"><a href="https://sunlogin.oray.com/download/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/26760_48_1602817243.png" alt="icon" width="40" height="40" />  <span class="label">向日葵</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.google.cn/chrome/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/302_48_1450768888.png" alt="icon" width="40" height="40" />  <span class="label">GOOGLE</span></a></div>
+						<div class="iPreview" align="center"><a href="https://player.qq.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/8_48_1560156252.png" alt="icon" width="40" height="40" />  <span class="label">QQ影音</span></a></div>
+						<div class="iPreview" align="center"><a href="https://jisupdf.com/zh-cn/download.html" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/56561_48_1452482377.png" alt="icon" width="40" height="40" />  <span class="label">极速PDF</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.wps.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/1215_48_1616120568.png" alt="icon" width="40" height="40" />  <span class="label">WPS</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.foxitsoftware.cn/downloads/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/1200_48_1426131682.png" alt="icon" width="40" height="40" />  <span class="label">福昕阅读</span></a></div>
+						<div class="iPreview" align="center"><a href="https://wwa.lanzoui.com/iboSxpx4y1c" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/2606_48_1512981577.png" alt="icon" width="40" height="40" />  <span class="label">2345</span></a></div>
+						<div class="iPreview" align="center"><a href="https://wwa.lanzoui.com/iFNHEpx4w2b" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/27087_48_1615272555.png" alt="icon" width="40" height="40" />  <span class="label">电脑管家</span></a></div>
+						<div class="iPreview" align="center"><a href="http://www.freewb.org/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/214_48.png" alt="icon" width="40" height="40" />  <span class="label">极点五笔</span></a></div>
+						<div class="iPreview" align="center"><a href="https://wubi.sogou.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/202_48_1601345915.png" alt="icon" width="40" height="40" />  <span class="label">搜狗五笔</span></a></div>
+						<div class="iPreview" align="center"><a href="https://browser.qq.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/351_48_1390531994.png" alt="icon" width="40" height="40" />  <span class="label">QQ浏览器</span></a></div>						
+						<div class="iPreview" align="center"><a href="https://work.weixin.qq.com/#indexDownload" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/22554_48_1591253397.png" alt="icon" width="40" height="40" />  <span class="label">企业微信</span></a></div>
+						<div class="iPreview" align="center"><a href="https://office.qq.com/download.html" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/23258_48_1585706547.png" alt="icon" width="40" height="40" />  <span class="label">TIM</span></a></div>
+					
+						<div class="iPreview" align="center"><a href="https://work.taobao.com/download.html" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/11135_48_1513045399.png" alt="icon" width="40" height="40" />  <span class="label">千牛</span></a></div>
+						<div class="iPreview" align="center"><a href="https://pages.tmall.com/wow/qnww/act/index" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/1855_48_1386734611.png" alt="icon" width="40" height="40" />  <span class="label">阿里旺旺</span></a></div>
+						<div class="iPreview" align="center"><a href="https://page.dingtalk.com/wow/z/dingtalk/default/dddownload-index" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/26980_48_1610695420.png" alt="icon" width="40" height="40" />  <span class="label">钉钉</span></a></div>
+						<div class="iPreview" align="center"><a href="http://pan.baidu.com/download" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/56606_48_1551408704.png" alt="icon" width="40" height="40" />  <span class="label">百度网盘</span></a></div>
+						<div class="iPreview" align="center"><a href="https://yasuo.360.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/27238_48_1620372935.png" alt="icon" width="40" height="40" />  <span class="label">华为助手</span></a></div>
+						<div class="iPreview" align="center"><a href="https://yasuo.360.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/1105_48_1430361442.png" alt="icon" width="40" height="40" />  <span class="label">驱动精灵</span></a></div>
+						<div class="iPreview" align="center"><a href="https://yasuo.360.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/15655_48_1399625858.png" alt="icon" width="40" height="40" />  <span class="label">DG</span></a></div>
+						<div class="iPreview" align="center"><a href="http://www.feiq18.com/" target="_blank">
+						<img src="feiqiu.png" alt="icon" width="40" height="40" />  <span class="label">飞秋</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.huorong.cn/" target="_blank">
+						<img src="https://bbs.huorong.cn/data/attachment/common/09/common_59_icon.png" alt="icon" width="40" height="40"  />  <span class="label">火绒</span></a></div>
+						<div class="iPreview" align="center"><a href="http://browser.360.cn/ee/" target="_blank">
+						<img src="https://p1.ssl.qhimg.com/t01295f3bb119d3e1c2.png" alt="icon" width="40" height="40"/>  <span class="label">360极速</span></a></div>
+						<div class="iPreview" align="center"><a href="https://yzy.gdzwfw.gov.cn/download.html" target="_blank">
+						<img src="Images/1/yzy.png" alt="icon" width="40" height="40"/>  <span class="label">粤政易</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.xunlei.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/22748_48_1608172535.png" alt="icon" width="40" height="40"/>  <span class="label">迅雷</span></a></div>
+						<div class="iPreview" align="center"><a href="https://ie.sogou.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/22127_48_1445490075.png" alt="icon" width="40" height="40"/>  <span class="label">搜狗浏览器</span></a></div>
+						<div class="iPreview" align="center"><a href="https://support.microsoft.com/zh-cn/windows/internet-explorer-%E4%B8%8B%E8%BD%BD-d49e1f0d-571c-9a7b-d97e-be248806ca70" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/iexplore10_48x48.png" alt="icon" width="40" height="40"/>  <span class="label">IE</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.i4.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/120169_48_1489369971.png" alt="icon" width="40" height="40"/>  <span class="label">爱思助手</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.wps.cn/product/kingsoftpdf/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/23028_48_1505294643.png" alt="icon" width="40" height="40"/>  <span class="label">金山PDF</span></a></div>
+						<div class="iPreview" align="center"><a href="https://www.flash.cn/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/26476_48_1592362774.png" alt="icon" width="40" height="40"/>  <span class="label">Flash</span></a></div>
+						<div class="iPreview" align="center"><a href="https://get.adobe.com/cn/reader/?promoid=KSWLH" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/1201_48.png" alt="icon" width="40" height="40"/>  <span class="label">AdbeRdr</span></a></div>
+						<div class="iPreview" align="center"><a href="https://dm.weishi.360.cn/home.html?from=homepage" target="_blank">
+						<img src="https://p1.ssl.qhimg.com/t01142a5003c283acb5.png" alt="icon" width="40" height="40"/>  <span class="label">360驱动</span></a></div>
+						<div class="iPreview" align="center"><a href="http://cad.glodon.com/" target="_blank">
+						<img src="https://pc3.gtimg.com/softmgr/logo/48/17578_48_1402998624.png" alt="icon" width="40" height="40"/>  <span class="label">CAD看图</span></a></div>
+						
+					</div>
+						</div>
+						
+						
+						<div id="table_wTabs-2">
+							<div class="widget_contents iphO">
+						<div class="iPreview"><a href="https://www.2345.com/?k397071" target="_blank"><span class="label">2345</span></a></div>
+                        <div class="iPreview"><a href="https://www.52pojie.cn/" target="_blank"><span class="label">吾爱破解</span></a></div>
+						<div class="iPreview"><a href="https://www.drvsky.com/" target="_blank"><span class="label">驱动天空</span></a></div>
+						<div class="iPreview"><a href="https://up.woozooo.com/account.php?action=login&ref=/mydisk.php" target="_blank"><span class="label">蓝奏</span></a></div>
+						<div class="iPreview"><a href="https://www.aliyundrive.com/sign/in" target="_blank"><span class="label">阿里云盘</span></a></div>
+						<div class="iPreview"><a href="https://www.weiyun.com/" target="_blank"><span class="label">微云</span></a></div>
+						<div class="iPreview"><a href="https://www.speedtest.cn/" target="_blank"><span class="label">测速</span></a></div>
+						<div class="iPreview"><a href="http://internet.gd.chinamobile.com/" target="_blank"><span class="label">移动测速</span></a></div>
+						<div class="iPreview"><a href="https://www.edrawsoft.cn/mindmaster/" target="_blank"><span class="label">亿图</span></a></div>
+						<div class="iPreview"><a href="https://cn.office-converter.com/" target="_blank"><span class="label">Office Converter</span></a></div>
+						<div class="iPreview"><a href="http://ebadu.com/user/index.asp" target="_blank"><span class="label">八度网络</span></a></div>
+						<div class="iPreview"><a href="https://www.jindouyun.cn/" target="_blank"><span class="label">筋斗云</span></a></div>
+						<div class="iPreview"><a href="http://72e.net/" target="_blank"><span class="label">云指</span></a></div>
+						<div class="iPreview"><a href="https://www.ename.cn/" target="_blank"><span class="label">ename</span></a></div>
+
+					</div>
+						</div>
+						</div>
+					
+				</div>
+				
+
+				
+
+				
+								<div class="g_12 separator"><span></span></div>
+				<img src="Images/zfbhb.png" width="380" height="490">	<a href="http://dpurl.cn/Xmxr9G3z" target="_blank"><img src="Images/meituan.jpg" width="380" height="490"></a>
+				<!-- Separator -->
+				<div class="g_12 separator"><span></span></div>
+				
+<div class="g_12">
+					<div class="widget_header">
+						<h4 class="widget_header_title wwIcon i_16_icons">一些网站</h4>
+					</div>
+					<div class="widget_contents iphO">
+						<div class="iPreview"><a href="https://github.com/" target="_blank"><span class="label">GitHub</span></a></div>
+						<div class="iPreview"><a href="https://www.2345.com/?k397071" target="_blank"><span class="label">2345</span></a></div>
+						<div class="iPreview"><a href="https://www.52pojie.cn/" target="_blank"><span class="label">吾爱破解</span></a></div>
+						<div class="iPreview"><a href="https://www.drvsky.com/" target="_blank"><span class="label">驱动天空</span></a></div>
+						<div class="iPreview"><a href="https://up.woozooo.com/account.php?action=login&ref=/mydisk.php" target="_blank"><span class="label">蓝奏</span></a></div>
+						<div class="iPreview"><a href="https://www.aliyundrive.com/sign/in" target="_blank"><span class="label">阿里云盘</span></a></div>
+						<div class="iPreview"><a href="https://www.weiyun.com/" target="_blank"><span class="label">微云</span></a></div>
+						<div class="iPreview"><a href="https://www.speedtest.cn/" target="_blank"><span class="label">测速</span></a></div>
+						<div class="iPreview"><a href="http://internet.gd.chinamobile.com/" target="_blank"><span class="label">移动测速</span></a></div>
+						<div class="iPreview"><a href="https://www.edrawsoft.cn/mindmaster/" target="_blank"><span class="label">亿图</span></a></div>
+						<div class="iPreview"><a href="https://cn.office-converter.com/" target="_blank"><span class="label">Office Converter</span></a></div>
+						<div class="iPreview"><a href="http://ebadu.com/user/index.asp" target="_blank"><span class="label">八度网络</span></a></div>
+						<div class="iPreview"><a href="https://www.jindouyun.cn/" target="_blank"><span class="label">筋斗云</span></a></div>
+						<div class="iPreview"><a href="http://72e.net/" target="_blank"><span class="label">云指</span></a></div>
+						<div class="iPreview"><a href="https://www.ename.cn/" target="_blank"><span class="label">易名科技</span></a></div>
+					</div>
+				</div>
+
+
+			</div>		
+		</div>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<span class="copyright">
+				&copy; Copyright &copy; 2021 2OT.CN All rights reserved.
+				
+				<p>声明：本站资源均来自于网络和官方原版，操作系统均为试用，本站不提供激活服务。
+				请在下载完成后再考虑自愿为本站捐助，下载速度与捐助无关。</p>
+			</span>
+
+		</div>
+	</footer>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+
+</body>
+</html>
