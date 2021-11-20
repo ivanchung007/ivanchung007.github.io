@@ -1,0 +1,417 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>2OT.CN - 一个纯粹的工具类网站</title>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="Javascript/Flot/excanvas.js"></script>
+	<![endif]-->
+	<!-- The Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Oswald|Droid+Sans:400,700" rel="stylesheet">
+	<!-- The Main CSS File -->
+	<link rel="stylesheet" href="CSS/style.css">
+	<!-- jQuery -->
+	<script src="Javascript/jQuery/jquery-1.7.2.min.js"></script>
+	<!-- Flot -->
+	<script src="Javascript/Flot/jquery.flot.js"></script>
+	<script src="Javascript/Flot/jquery.flot.resize.js"></script>
+	<script src="Javascript/Flot/jquery.flot.pie.js"></script>
+	<!-- DataTables -->
+	<script src="Javascript/DataTables/jquery.dataTables.min.js"></script>
+	<!-- ColResizable -->
+	<script src="Javascript/ColResizable/colResizable-1.3.js"></script>
+	<!-- jQuryUI -->
+	<script src="Javascript/jQueryUI/jquery-ui-1.8.21.min.js"></script>
+	<!-- Uniform -->
+	<script src="Javascript/Uniform/jquery.uniform.js"></script>
+	<!-- Tipsy -->
+	<script src="Javascript/Tipsy/jquery.tipsy.js"></script>
+	<!-- Elastic -->
+	<script src="Javascript/Elastic/jquery.elastic.js"></script>
+	<!-- ColorPicker -->
+	<script src="Javascript/ColorPicker/colorpicker.js"></script>
+	<!-- SuperTextarea -->
+	<script src="Javascript/SuperTextarea/jquery.supertextarea.min.js"></script>
+	<!-- UISpinner -->
+	<script src="Javascript/UISpinner/ui.spinner.js"></script>
+	<!-- MaskedInput -->
+	<script src="Javascript/MaskedInput/jquery.maskedinput-1.3.js"></script>
+	<!-- ClEditor -->
+	<script src="Javascript/ClEditor/jquery.cleditor.js"></script>
+	<!-- Full Calendar -->
+	<script src="Javascript/FullCalendar/fullcalendar.js"></script>
+	<!-- Color Box -->
+	<script src="Javascript/ColorBox/jquery.colorbox.js"></script>
+	<!-- Kanrisha Script -->
+	<script src="Javascript/kanrisha.js"></script>
+	
+	
+	
+</head>
+<body>
+	<!-- Change Pattern -->
+	<div class="changePattern">
+		<span id="pattern1"></span>
+		<span id="pattern2"></span>
+		<span id="pattern3"></span>
+		<span id="pattern4"></span>
+		<span id="pattern5"></span>
+		<span id="pattern6"></span>
+	</div>
+	<!-- Top Panel -->
+	<div class="top_panel">
+		<div class="wrapper">
+			<div class="user">
+				<img src="Images/user_avatar.png" alt="user_avatar" class="user_avatar">
+				<span class="label">Ivan</span>
+				<!-- Top Tooltip -->
+				<div class="top_tooltip">
+					<div>
+						<ul class="user_options">
+							<li class="i_16_profile"><a href="#" title="Profile"></a></li>
+							<li class="i_16_tasks"><a href="#" title="Tasks"></a></li>
+							<li class="i_16_notes"><a href="#" title="Notes"></a></li>
+							<li class="i_16_options"><a href="#" title="Options"></a></li>
+							<li class="i_16_logout"><a href="#" title="Log-Out"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="top_links">
+				<ul>
+
+					<li class="i_22_settings">
+						<a href="#" title="Settings">
+							<span class="label">Settings</span>
+						</a>
+					</li>
+					<li class="i_22_upload">
+						<a href="#" title="Upload">
+							<span class="label">Upload</span>
+						</a>
+						<!-- Drop Menu -->
+						<ul class="drop_menu menu_with_icons right_direction">
+							<li>
+								<a class="i_16_add" href="#" title="New Flie">
+									<span class="label">New File</span>
+								</a>									
+							</li>
+							<li>
+								<a class="i_16_progress" href="#" title="2 Files Left">
+									<span class="label">Files Left</span>
+									<span class="small_count">2</span>
+								</a>
+							</li>
+							<li>
+								<a class="i_16_files" href="#" title="Browse Files">
+									<span class="label">Browse Files</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="i_22_inbox top_inbox">
+						<a href="mailto:postmaster@2ot.cn" target="_blank" title="发邮件给我">
+							<span class="label lasCount">发邮件</span>
+							
+						</a>
+					</li>
+					<li class="i_22_pages">
+						<a href="http://22247.cn/" target="_blank" title="快捷导航">
+							<span class="label">快捷导航</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+		<header class="main_header">
+		<div class="wrapper">
+			<div class="logo">
+				<a href="index.html" title="Kanrisha Home">
+					<img src="Images/logo.png" alt="kanrisha_logo" />
+				</a>
+			</div>
+			<nav class="top_buttons">
+				<ul>
+					<li class="big_button">
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="http://www.msidc.cn/" target="_blank" title="高防服务器" class="the_button">
+										<span class="i_32_statistic"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="mailto:postmaster@2ot.cn" target="_blank" title="联系我" class="the_button">
+										<span class="i_32_support"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+						<div class="big_count">
+							<span>1</span>
+						</div>
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=422&userCode=l3fcti6t" title="阿里云小站" target="_blank" class="the_button">
+										<span class="i_32_delivery"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+						<li class="big_button">
+						<div class="out_border">
+
+								       <div class="widget_contents lPreview">
+									<a href="http://2ot.cn/pay.jpg" title="感谢打赏" class="lightbox">
+										<img src="Images/Icons/32/i_32_dollar.png" alt="lightbox"/></a>	
+										</div>
+						</div>
+					</li>	
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="wrapper small_menu">
+		<ul class="menu_small_buttons">
+			<li><a title="General Info" class="i_22_dashboard" href="index.html"></a></li>
+			<li><a title="Your Messages" class="i_22_inbox smActive" href="soft.html"></a></li>
+			<li><a title="Some Rows" class="i_22_tables" href="msdn.html"></a></li>
+		</ul>
+	</div>
+
+	<div class="wrapper contents_wrapper">
+		
+		<aside class="sidebar">
+			<ul class="tab_nav">
+				<li class="i_32_dashboard">
+					<a href="index.html" title="General Info">
+						<span class="tab_label">首页</span>
+						<span class="tab_info">Index</span>
+					</a>
+				</li>
+				<li class="active_tab i_32_inbox">
+					<a href="soft.html" title="Your Messages">
+						<span class="tab_label">SOFT</span>
+						<span class="tab_info">一些软件</span>
+					</a>
+				</li>
+				<li class="i_32_tables">
+					<a href="msdn.html" title="Some Rows">
+						<span class="tab_label">MSDN</span>
+						<span class="tab_info">源自官方原版</span>
+					</a>
+				</li>
+
+			</ul>
+		</aside>
+		<div class="contents">
+			<div class="grid_wrapper">
+
+				<div class="g_6 contents_header">
+					<h3 class="i_16_message tab_label">温馨提示</h3>
+					<div><span class="label">本站所有软件原始版本版权归原作者所有，您可以任意传播使用，但不得未经作者许可用于商业用途！本站并不对可能由此给您的计算机系统带来的任何问题负责！</span></div>
+				</div>
+				<div class="g_6 contents_options">
+					<div class="simple_buttons">
+						<div class="bwIcon i_16_help"><a href="sm.html" target="_blank"><span class="label">说明</span></a></div>
+					</div>
+				
+				</div>
+
+				<div class="g_12 separator"><span></span></div>
+				<div class="g_6">
+					<div class="widget_header">
+						<h4 class="widget_header_title wwIcon i_16_tabs">最新</h4>
+					</div>
+					<div class="widget_contents">
+						<span class="label"><a target="_blank" href="https://wwa.lanzoui.com/iEjhXjcqapc"><span class="label">WIN10去掉与恢复小箭头</span></a></span>
+					</div>
+				</div>
+				<div class="g_6">
+					<div class="widget_header">
+						<h4 class="widget_header_title wwIcon i_16_tabs">推荐</h4>
+					</div>
+					<div class="widget_contents">
+						<span class="label"><a target="_blank" href="https://wwa.lanzoui.com/iZODGo2d4xg" title=""><span class="label">UltraISO绿色版</span></a></span>
+					</div>
+				</div>
+				<div class="g_12">
+					<div class="widget_header">
+						<h4 class="widget_header_title wwIcon i_16_tooltip">Soft Table</h4>
+					</div>
+					<div class="widget_contents noPadding twCheckbox">
+						<table class="tables datatable noObOLine">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>类型</th>
+									<th>名称</th>
+									<th>大小</th>
+									<th>下载</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="status_open">
+									<td>#238749</td>
+									<td>装机</td>
+									<td>WinRAR_5.50_x64_SC.exe</td>
+									<td>2.2 M</td>
+									<td>
+									<a target="_blank" href="https://wwa.lanzoui.com/iEjhXjcqapc"><span class="label">蓝奏</span></a>
+									</td>
+								
+								</tr>
+								<tr class="status_open">
+									<td>#222</td>
+									<td>装机</td>
+									<td>WinRAR_5.50_x86_SC.exe</td>
+									<td>1.96 M</td>
+									<td>
+									<a target="_blank" href="https://share.weiyun.com/fdHfYvql"><span class="label">微云</span></a>
+									<a target="_blank" href="https://wwa.lanzoui.com/i3WBBkhaocd" title=""><span class="label">蓝奏</span></a> 	
+									<a target="_blank" href="https://pan.baidu.com/s/1CWfZkOGcBkJBvkilwf8arw" title="zup4"><span class="label">百度</span></a>
+									</td>
+								</tr>
+								<tr class="status_open">
+									<td>#221</td>
+									<td>装机</td>
+									<td>WIN10去掉与恢复小箭头</td>
+									<td>0,01 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/i8UIqjdot8d" title=""><span class="label">蓝奏</span></a></td>
+								<tr class="status_open">
+									<td>#221</td>
+									<td>装机</td>
+									<td>win7背景图</td>
+									<td>0,01 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iFwp8jnigub" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>Pot-Player64_v201224(1.7.21400)_Dev.7z</td>
+									<td>25.8 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iAHrKjuihva" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>kb931125补丁rootsupd</td>
+									<td>0.03 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iktNkpi0lgf" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>安装系统自动应答文件</td>
+									<td>0.05 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iYJxUjcqwih" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>UltraISO绿色版</td>
+									<td>1.8 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iZODGo2d4xg" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>Nero8</td>
+									<td>37.1 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/i6Igjnfb7kb" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>rufus-3.8</td>
+									<td>1.1 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iu2PCr9m8kb" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>工具</td>
+									<td>dotnetfx45_full_x86_x64</td>
+									<td>48.0 M</td>
+									<td><a target="_blank" href="ed2k://|file|cn_.net_framework_4.5_language_pack_x86_x64_921026.exe|4150352|8383C688BD174FE3F327D846A9F4CE4E|/"><span class="label">ED2K</span></a>
+									<a target="_blank" href="https://wwa.lanzoui.com/i0BhHjtl0ti" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+							   <tr class="status_closed">
+									<td>#221</td>
+									<td>工具</td>
+									<td>dotNetFx40_Full_x86_x64</td>
+									<td>48.1 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iBhiBjtxk0b" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								<tr class="status_closed">
+									<td>#221</td>
+									<td>工具</td>
+									<td>.NET Framework 3.5_service_pack_1_x86_x64_ia64</td>
+									<td>231 M</td>
+									<td><a target="_blank" href="ed2k://|file|en_.net_framework_3.5_service_pack_1_x86_x64_ia64.exe|242743296|C8B10D7008E5C32BD5BA03CA0E41BA7B|/" title=""><span class="label">ED2K</span></a></td>
+								</tr>
+							  <tr class="status_closed">
+									<td>#221</td>
+									<td>装机</td>
+									<td>VNC绿色版</td>
+									<td>0,02 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iCq7ijo7v6h" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								 <tr class="status_closed">
+									<td>#221</td>
+									<td>编程</td>
+									<td>Dreamweaver 8 简体中文绿色版</td>
+									<td>59.7 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iJUzww7gicf" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+								 <tr class="status_closed">
+									<td>#221</td>
+									<td>编程</td>
+									<td>FlashFXP</td>
+									<td>2.0 M</td>
+									<td><a target="_blank" href="https://wwa.lanzoui.com/iTQYSw7h3qf" title=""><span class="label">蓝奏</span></a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+					
+				<div class="g_12 separator"><span></span></div>
+			
+				
+			</div>		
+		</div>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<span class="copyright">
+				&copy; Copyright &copy; 2021 2OT.CN All rights reserved.
+				
+								<p>声明：本站资源均来自于网络和官方原版，操作系统均为试用，本站不提供激活服务。
+				请在下载完成后再考虑自愿为本站捐助，下载速度与捐助无关。</p>。
+			</span>
+		</div>
+	</footer>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+
+
+</body>
+</html>

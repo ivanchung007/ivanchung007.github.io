@@ -1,0 +1,561 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>2OT.CN - 一个纯粹的工具类网站</title>
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="Javascript/Flot/excanvas.js"></script>
+	<![endif]-->
+	<!-- The Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Oswald|Droid+Sans:400,700" rel="stylesheet" />
+	<!-- The Main CSS File -->
+	<link rel="stylesheet" href="CSS/style.css" />
+	<!-- jQuery -->
+	<script src="Javascript/jQuery/jquery-1.7.2.min.js"></script>
+	<!-- Flot -->
+	<script src="Javascript/Flot/jquery.flot.js"></script>
+	<script src="Javascript/Flot/jquery.flot.resize.js"></script>
+	<script src="Javascript/Flot/jquery.flot.pie.js"></script>
+	<!-- DataTables -->
+	<script src="Javascript/DataTables/jquery.dataTables.min.js"></script>
+	<!-- ColResizable -->
+	<script src="Javascript/ColResizable/colResizable-1.3.js"></script>
+	<!-- jQuryUI -->
+	<script src="Javascript/jQueryUI/jquery-ui-1.8.21.min.js"></script>
+	<!-- Uniform -->
+	<script src="Javascript/Uniform/jquery.uniform.js"></script>
+	<!-- Tipsy -->
+	<script src="Javascript/Tipsy/jquery.tipsy.js"></script>
+	<!-- Elastic -->
+	<script src="Javascript/Elastic/jquery.elastic.js"></script>
+	<!-- ColorPicker -->
+	<script src="Javascript/ColorPicker/colorpicker.js"></script>
+	<!-- SuperTextarea -->
+	<script src="Javascript/SuperTextarea/jquery.supertextarea.min.js"></script>
+	<!-- UISpinner -->
+	<script src="Javascript/UISpinner/ui.spinner.js"></script>
+	<!-- MaskedInput -->
+	<script src="Javascript/MaskedInput/jquery.maskedinput-1.3.js"></script>
+	<!-- ClEditor -->
+	<script src="Javascript/ClEditor/jquery.cleditor.js"></script>
+	<!-- Full Calendar -->
+	<script src="Javascript/FullCalendar/fullcalendar.js"></script>
+	<!-- Color Box -->
+	<script src="Javascript/ColorBox/jquery.colorbox.js"></script>
+	<!-- Kanrisha Script -->
+	<script src="Javascript/kanrisha.js"></script>
+	
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<!-- Change Pattern -->
+	<div class="changePattern">
+		<span id="pattern1"></span>
+		<span id="pattern2"></span>
+		<span id="pattern3"></span>
+		<span id="pattern4"></span>
+		<span id="pattern5"></span>
+		<span id="pattern6"></span>
+	</div>
+	<!-- Top Panel -->
+	<div class="top_panel">
+		<div class="wrapper">
+			<div class="user">
+				<img src="Images/user_avatar.png" alt="user_avatar" class="user_avatar" />
+				<span class="label">Ivan</span>
+				<!-- Top Tooltip -->
+				<div class="top_tooltip">
+					<div>
+						<ul class="user_options">
+							<li class="i_16_profile"><a href="#" title="Profile"></a></li>
+							<li class="i_16_tasks"><a href="#" title="Tasks"></a></li>
+							<li class="i_16_notes"><a href="#" title="Notes"></a></li>
+							<li class="i_16_options"><a href="#" title="Options"></a></li>
+							<li class="i_16_logout"><a href="#" title="Log-Out"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="top_links">
+				<ul>
+					
+					<li class="i_22_settings">
+						<a href="#" title="Settings">
+							<span class="label">Settings</span>
+						</a>
+					</li>
+					<li class="i_22_upload">
+						<a href="#" title="Upload">
+							<span class="label">Upload</span>
+						</a>
+						<!-- Drop Menu -->
+						<ul class="drop_menu menu_with_icons right_direction">
+							<li>
+								<a class="i_16_add" href="#" title="New Flie">
+									<span class="label">New File</span>
+								</a>									
+							</li>
+							<li>
+								<a class="i_16_progress" href="#" title="2 Files Left">
+									<span class="label">Files Left</span>
+									<span class="small_count">2</span>
+								</a>
+							</li>
+							<li>
+								<a class="i_16_files" href="#" title="Browse Files">
+									<span class="label">Browse Files</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="i_22_inbox top_inbox">
+						<a href="mailto:postmaster@2ot.cn" target="_blank" title="发邮件给我">
+							<span class="label lasCount">发邮件</span>
+						
+						</a>
+					</li>
+					<li class="i_22_pages">
+					<a href="http://22247.cn/" target="_blank" title="快捷导航">
+							<span class="label">快捷导航</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+		<header class="main_header">
+		<div class="wrapper">
+			<div class="logo">
+				<a href="index.html" title="Kanrisha Home">
+					<img src="Images/logo.png" alt="kanrisha_logo" />
+				</a>
+			</div>
+			<nav class="top_buttons">
+				<ul>
+					<li class="big_button">
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="http://www.msidc.cn/" target="_blank" title="高防服务器" class="the_button">
+										<span class="i_32_statistic"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="mailto:postmaster@2ot.cn" target="_blank" title="联系我" class="the_button">
+										<span class="i_32_support"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="big_button">
+						<div class="big_count">
+							<span>1</span>
+						</div>
+						<div class="out_border">
+							<div class="button_wrapper">
+								<div class="in_border">
+									<a href="https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=422&userCode=l3fcti6t" title="阿里云小站" target="_blank" class="the_button">
+										<span class="i_32_delivery"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+										<li class="big_button">
+						<div class="out_border">
+
+								       <div class="widget_contents lPreview">
+									<a href="http://2ot.cn/pay.jpg" title="感谢打赏" class="lightbox">
+										<img src="Images/Icons/32/i_32_dollar.png" alt="lightbox"/></a>	
+										</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="wrapper small_menu">
+		<ul class="menu_small_buttons">
+			<li><a title="General Info" class="i_22_dashboard" href="index.html"></a></li>
+			<li><a title="Your Messages" class="i_22_inbox" href="soft.html"></a></li>
+			<li><a title="Some Rows" class="i_22_tables smActive" href="msdn.html"></a></li>
+		</ul>
+	</div>
+
+	<div class="wrapper contents_wrapper">
+		
+		<aside class="sidebar">
+			<ul class="tab_nav">
+				<li class="i_32_dashboard">
+					<a href="index.html" title="General Info">
+						<span class="tab_label">首页</span>
+						<span class="tab_info">Index</span>
+					</a>
+				</li>
+				<li class="i_32_inbox">
+					<a href="soft.html" title="Your Messages">
+						<span class="tab_label">SOFT</span>
+						<span class="tab_info">一些软件</span>
+					</a>
+				</li>
+				<li class="active_tab i_32_tables">
+					<a href="msdn.html" title="Some Rows">
+						<span class="tab_label">MSDN</span>
+						<span class="tab_info">源自官方原版</span>
+					</a>
+				</li>
+
+			</ul>
+		</aside>
+
+		<div class="contents">
+			<div class="grid_wrapper">
+
+				<div class="g_6 contents_header">
+					<h3 class="i_16_table tab_label">温馨提示</h3>
+					<div><span class="label">操作系统均为试用，本站不提供激活服务。官方请认准：Microsoft
+					下载完成后务必进行SHA1校验（鼠标放置表格“大小”处可查看，推荐使用<a target="_blank" href="https://share.weiyun.com/DeqNzxJf">Hash_cn</a>），与网站核对一致后再使用。
+					</span></div>
+				</div>
+				<div class="g_6 contents_options">
+					<div class="simple_buttons">
+						<div class="bwIcon i_16_help"><a href="sm.html" target="_blank"><span class="label">说明</span></a></div>
+					</div>
+					
+				</div>
+
+
+
+				<!-- Separator -->
+				<div class="g_12 separator"><span></span></div>
+				<div class="g_12">
+					<div class="widget_header wwOptions">
+						<h4 class="widget_header_title wwIcon i_16_data">MSDN Tables</h4>
+						<div class="w_Options i_16_settings">
+							<!-- Drop Menu -->
+							<ul class="drop_menu menu_with_icons right_direction">
+								<li>
+									<a class="i_16_add" href="#" title="New Flie">
+										<span class="label">New File</span>
+									</a>									
+								</li>
+								<li>
+									<a class="i_16_progress" href="#" title="2 Files Left">
+										<span class="label">Files Left</span>
+										<span class="small_count">2</span>
+									</a>
+								</li>
+								<li>
+									<a class="i_16_files" href="#" title="Browse Files">
+										<span class="label">Browse Files</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="widget_contents noPadding">
+						<table class="datatable tables">
+							<thead>
+								<tr>
+									<th>发布时间</th>
+									<th>名称</th>
+									<th>类型</th>
+									<th>大小</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>2020-01-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1909_updated_jan_2020_x64_dvd_b3e1f3a6.iso|5311711232|3527D2A9845FF4105F485CC364655B66|/" title="cn_windows_10_business_editions_version_1909_updated_jan_2020_x64_dvd_b3e1f3a6.iso">Windows 10 (business editions), version 1909 (updated Jan 2020) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>
+									Win10
+									</td>
+									<td title="SHA1: 67f9c7d6ec42cb1257697516f134799e020de8e3">
+									4.95GB
+									</td>
+								</tr>
+								<tr>
+									<td>2020-01-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1909_updated_jan_2020_x86_dvd_e861101e.iso|3802454016|5B909C955D8A65CA2002D8594D137A63|/" title="cn_windows_10_business_editions_version_1909_updated_jan_2020_x86_dvd_e861101e.iso">Windows 10 (business editions), version 1909 (updated Jan 2020) (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 0bc78eb8b9b114ecbbf2552ee0b0701d7178bae4">3.54GB</td>
+								</tr>
+								<tr>
+									<td>2020-01-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_updated_jan_2020_x64_dvd_47161f17.iso|5417457664|274FEBA5BF0C874C291674182FA9C851|/" title="cn_windows_10_consumer_editions_version_1909_updated_jan_2020_x64_dvd_47161f17.iso">Windows 10 (consumer editions), version 1909 (updated Jan 2020) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 7c498c81d9ba75db92957562631b84dec4829f97">5.05GB</td>
+								</tr>
+								<tr>
+									<td>2020-01-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_updated_jan_2020_x86_dvd_9c50652f.iso|3884539904|0F2E887F2845BCD5C61E99E74D717287|/" title="cn_windows_10_consumer_editions_version_1909_updated_jan_2020_x86_dvd_9c50652f.iso">Windows 10 (consumer editions), version 1909 (updated Jan 2020) (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: a9c69b69091f232cf789968bb2363874aa56265b">3.62GB</td>
+								</tr>
+								<tr>
+									<td>2019-12-17</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_updated_jan_2020_x86_dvd_9c50652f.iso|3884539904|0F2E887F2845BCD5C61E99E74D717287|/" title="cn_windows_10_business_editions_version_1909_updated_dec_2019_x64_dvd_262ac8af.iso">Windows 10 (business editions), version 1909 (updated Dec 2019) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: ee016317989ca607d786baa269fef756ebae9664">4.94GB</td>
+								</tr>
+								<tr>
+									<td>2019-12-17</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1909_updated_dec_2019_x86_dvd_af05adaf.iso|3873925120|A5A7693C47B2D456FA775290385F5E7F|/" title="cn_windows_10_business_editions_version_1909_updated_dec_2019_x86_dvd_af05adaf.iso">Windows 10 (business editions), version 1909 (updated Dec 2019) (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: bbc1cbbd4b070f1862e352e85c6b22b14f23f03d">3.61GB</td>
+								</tr>
+								<tr>
+									<td>2019-12-17</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_updated_dec_2019_x64_dvd_835a48d3.iso|5406394368|E22B7B686A83B967ABFABA216F97D150|/" title="cn_windows_10_consumer_editions_version_1909_updated_dec_2019_x64_dvd_835a48d3.iso">Windows 10 (consumer editions), version 1909 (updated Dec 2019) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: ea0ce3ef20e670a04512862d94291ca4e42d7a73">5.04GB</td>
+								</tr>
+								<tr>
+									<td>2019-12-17</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_updated_dec_2019_x86_dvd_d931db3a.iso|3953639424|6F3F3B304D2FB7E8535F6D3E514EDF94|/" title="cn_windows_10_consumer_editions_version_1909_updated_dec_2019_x86_dvd_d931db3a.iso">Windows 10 (consumer editions), version 1909 (updated Dec 2019) (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: bd3dd1d090783c16dc66598cd9cb8877f88292da">3.68GB</td>
+								</tr>
+								<tr>
+									<td>2019-10-16</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1909_x64_dvd_0ca83907.iso|5275090944|9BCD5FA6C8009E4D0260E4B23008BD47|/" title="cn_windows_10_business_editions_version_1909_x64_dvd_0ca83907.iso">Windows 10 (business editions), version 1909 (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: a153526cdd406a249a93f30b447b259fed560c1d">4.91GB</td>
+								</tr>
+								<tr>
+									<td>2019-10-16</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1909_x86_dvd_09290f8c.iso|3781249024|7C60A943AE1D8AE6B5F72743D2E74EE2|/" title="cn_windows_10_business_editions_version_1909_x86_dvd_09290f8c.iso">Windows 10 (business editions), version 1909 (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 4c4832aaf2bc04af8c82d01d1319c93a9ff9813d">3.52GB</td>
+								</tr>
+								<tr>
+									<td>2019-10-16</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_x64_dvd_76365bf8.iso|5381154816|6A56DE112B164EC054D1104C53F8F10B|/" title="cn_windows_10_consumer_editions_version_1909_x64_dvd_76365bf8.iso">Windows 10 (consumer editions), version 1909 (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 5f3c8e743c9e87bdefdaabb49bbd0d7aa9221e7a">5.01GB</td>
+								</tr>
+								<tr>
+									<td>2019-10-16</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1909_x86_dvd_08dd0d3c.iso|3859558400|40991568D016CCBAEE1E67CD38FAABE8|/" title="cn_windows_10_consumer_editions_version_1909_x86_dvd_08dd0d3c.iso">Windows 10 (consumer editions), version 1909 (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 3e887474610875781bcb385f300073d2e01d7668">3.59GB</td>
+								</tr>
+								<tr>
+									<td>2019-09-25</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1903_updated_sept_2019_x64_dvd_2f5281e1.iso|5231140864|B1D5C4C401036B0B1EBA64476A95F338|/" title="cn_windows_10_business_editions_version_1903_updated_sept_2019_x64_dvd_2f5281e1.iso">Windows 10 (business editions), version 1903 (updated Sept 2019) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 9a8a3d2e100c385bea73eca8e74284e7c166bbef">4.87GB</td>
+								</tr>
+								<tr>
+									<td>2019-09-25</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1903_updated_sept_2019_x64_dvd_ef681fec.iso|5329448960|06AE87625F95BEDF3404AEBAD1F82FF2|/" title="cn_windows_10_consumer_editions_version_1903_updated_sept_2019_x64_dvd_ef681fec.iso">Windows 10 (consumer editions), version 1903 (updated Sept 2019) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 5b3a4a7d5e50574765d2786f3a6466c9e9887868">4.96GB</td>
+								</tr>
+								<tr>
+									<td>2019-10-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_business_editions_version_1903_updated_oct_2019_x64_dvd_d7346ae3.iso|5275852800|6F12F5EA9E3B7BD1C5412121CDB8BCDC|/" title="cn_windows_10_business_editions_version_1903_updated_oct_2019_x64_dvd_d7346ae3.iso">Windows 10 (business editions), version 1903 (updated Oct 2019) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 172ac08743a6f18f1bbe2350cef5fbf836324338">4.91GB</td>
+								</tr>
+								<tr>
+									<td>2019-10-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_10_consumer_editions_version_1903_updated_oct_2019_x64_dvd_613b3d91.iso|5380552704|6056930136470C6B1677978F4F2237CD|/" title="cn_windows_10_consumer_editions_version_1903_updated_oct_2019_x64_dvd_613b3d91.iso">Windows 10 (consumer editions), version 1903 (updated Oct 2019) (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win10</td>
+									<td title="SHA1: 4ca243955309380c6301bd7d5aa527e403b0060d">5.01GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-23</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_enterprise_x64_dvd_x15-70741.iso|3203516416|876DCF115C2EE28D74B178BE1A84AB3B|/" title="cn_windows_7_enterprise_x64_dvd_x15-70741.iso">Windows 7 Enterprise (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: EE20DAF2CDEDD71C374E241340DEB651728A69C4">2.98GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-23</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_enterprise_x86_dvd_x15-70737.iso|2465783808|41ABFA74E57353B2F35BC33E56BD5202|/" title="cn_windows_7_enterprise_x86_dvd_x15-70737.iso">Windows 7 Enterprise (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 50F2900D293C8DF63A9D23125AFEEA7662FF9E54">2.3GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_enterprise_with_sp1_x64_dvd_u_677685.iso|3265574912|E9DB2607EA3B3540F3FE2E388F8C53C4|/" title="cn_windows_7_enterprise_with_sp1_x64_dvd_u_677685.iso">Windows 7 Enterprise with Service Pack 1 (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 9BA5E85596C2F25BE59F7E96139D83D4CB261A62">3.04GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_enterprise_with_sp1_x86_dvd_u_677716.iso|2502856704|B3C25EA4DD88D7E54F22D3C3E78C410B|/" title="cn_windows_7_enterprise_with_sp1_x86_dvd_u_677716.iso">Windows 7 Enterprise with Service Pack 1 (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: C488B3D72DDC4AC63BCDCA36820BB986A1E670AC">2.33GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-26</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_home_basic_x86_dvd_x15-65975.iso|2604238848|AF82993DCF8F3D7AA08D54693691BB48|/" title="cn_windows_7_home_basic_x86_dvd_x15-65975.iso">Windows 7 Home Basic (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 9996D685A0429060CFDBA99EFF0011EF34A01A82">2.43GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_home_basic_with_sp1_x86_dvd_u_676500.iso|2653276160|843E7A78F2126FAC726CF5342710082D|/" title="cn_windows_7_home_basic_with_sp1_x86_dvd_u_676500.iso">Windows 7 Home Basic with Service Pack 1 (x86) - DVD (Chinese-Simplified) </a></td>
+									<td>Win7</td>
+									<td title="SHA1: 2E53EC6E0CD78C23FC51528CC0FED3F6191DDCE6">2.47GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-26</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_home_premium_x64_dvd_x15-65718.iso|3341268992|9F976045631A6A2162ABE32FC77C8ACC|/" title="cn_windows_7_home_premium_x64_dvd_x15-65718.iso">Windows 7 Home Premium (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 5566AB6F40B0689702F02DE15804BEB32832D6A6">3.11GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-26</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_home_premium_x86_dvd_x15-65717.iso|2604238848|98E1EB474F92343B06737F227665DF1C|/" title="cn_windows_7_home_premium_x86_dvd_x15-65717.iso">Windows 7 Home Premium (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: CBA410DB30FA1561F874E1CC155E575F4A836B37">2.43GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso|3420557312|1A3CF44F3F5E0BE9BBC1A938706A3471|/" title="cn_windows_7_home_premium_with_sp1_x64_dvd_u_676691.iso">Windows 7 Home Premium with Service Pack 1 (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: BB5A8A1480FE54C497601AA1DC7BE698A784BE1C">3.19GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso|2653276160|A8E8BD4421174DF34BD14D60750B3CDB|/" title="cn_windows_7_home_premium_with_sp1_x86_dvd_u_676770.iso">Windows 7 Home Premium with Service Pack 1 (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 1B3B55C00CA60CE00D7745BF477D523B192E78DE">2.47GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-26</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_x64_dvd_x15-65791.iso|3341268992|3474800521D169FBF3F5E527CD835156|/" title="cn_windows_7_professional_x64_dvd_x15-65791.iso">Windows 7 Professional (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 5669A51195CD79D73CD18161D51E7E8D43DF53D1">3.11GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-23</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_x86_dvd_x15-65790.iso|2604238848|E812FBE758F05B485C5A858C22060785|/" title="cn_windows_7_professional_x86_dvd_x15-65790.iso">Windows 7 Professional (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: EBD595C3099CCF57C6FF53810F73339835CFBB9D">2.43GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_with_sp1_x64_dvd_u_677031.iso|3420557312|430BEDC0F22FA18001F717F7AF08C9D5|/" title="cn_windows_7_professional_with_sp1_x64_dvd_u_677031.iso">Windows 7 Professional with Service Pack 1 (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 9B57E67888434C24DD683968A3CE2C72755AB148">3.19GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_with_sp1_x86_dvd_u_677162.iso|2653276160|08F65018BD9B5BC8D77C1C7C5615A329|/" title="cn_windows_7_professional_with_sp1_x86_dvd_u_677162.iso">Windows 7 Professional with Service Pack 1 (x86) - DVD (Chinese-Simplified) </a></td>
+									<td>Win7</td>
+									<td title="SHA1: 7BB512B6AF82632D6B080C1E9C3C10CD0C738F0E">2.47GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677816.iso|3266004992|5A52F4CCEFA71797D58389B397038B2F|/" title="cn_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677816.iso">Windows 7 Professional with Service Pack 1, VL Build (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 647B26479A3A46C078F5B1364A89003A31F4AADA">3.04GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677939.iso|2502909952|935E5B4B754527BE3C238FA6ABDD9B86|/" title="cn_windows_7_professional_with_sp1_vl_build_x86_dvd_u_677939.iso">Windows 7 Professional with Service Pack 1, VL Build (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 27AE9FBAF9EE076F50F153353E42A3BE74A61FAB">2.33GB</td>
+								</tr>
+								<tr>
+									<td>2009-11-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_vl_build_x64_dvd_x15-71029.iso|3203971072|23155387CBD0771CFBA528CB1E7B170F|/" title="cn_windows_7_professional_vl_build_x64_dvd_x15-71029.iso">Windows 7 Professional, VL Build (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 2270C4A0715B204282AF1E8E05CBDCFCC776EB46">2.98GB</td>
+								</tr>
+								<tr>
+									<td>2009-11-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_professional_vl_build_x86_dvd_x15-71025.iso|2466107392|9EA7E0C2594B5A236FD09D572CA39770|/" title="cn_windows_7_professional_vl_build_x86_dvd_x15-71025.iso">Windows 7 Professional, VL Build (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: C91EBE17156604336CAB054A9A5186B5162D42A0">2.3GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-26</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_starter_x86_dvd_x15-69303.iso|2604238848|5A6796B2B6A97B3E372F7C37D3A42AA4|/" title="cn_windows_7_starter_x86_dvd_x15-69303.iso">Windows 7 Starter (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: C9B9F3143328AFE62BF3EACA164BE02B17B04532">2.43GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_starter_with_sp1_x86_dvd_u_678536.iso|2653276160|B0A788EA28B2491B4587A561A8CB5B19|/" title="cn_windows_7_starter_with_sp1_x86_dvd_u_678536.iso">Windows 7 Starter with Service Pack 1 (x86) - DVD (Chinese-Simplified) </a></td>
+									<td>Win7</td>
+									<td title="SHA1: 9522D435348353BAD69047C0161B7A9115A3C2A6">2.47GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-26</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_ultimate_x64_dvd_x15-66043.iso|3341268992|7DD7FA757CE6D2DB78B6901F81A6907A|/" title="cn_windows_7_ultimate_x64_dvd_x15-66043.iso">Windows 7 Ultimate (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 4A98A2F1ED794425674D04A37B70B9763522B0D4">3.11GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-23</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_ultimate_x86_dvd_x15-65907.iso|2604238848|D6F139D7A45E81B76199DDCCDDC4B509|/" title="cn_windows_7_ultimate_x86_dvd_x15-65907.iso">Windows 7 Ultimate (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: B589336602E3B7E134E222ED47FC94938B04354F">2.43GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/" title="cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso">Windows 7 Ultimate with Service Pack 1 (x64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 2CE0B2DB34D76ED3F697CE148CB7594432405E23">3.19GB</td>
+								</tr>
+								<tr>
+									<td>2011-05-12</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso|2653276160|7503E4B9B8738DFCB95872445C72AEFB|/" title="cn_windows_7_ultimate_with_sp1_x86_dvd_u_677486.iso">Windows 7 Ultimate with Service Pack 1 (x86) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: B92119F5B732ECE1C0850EDA30134536E18CCCE7">2.47GB</td>
+								</tr>
+								<tr>
+									<td>2009-08-06</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400075.iso|1855363072|5DEABD39472D497892703D3D0A9D1C57|/" title="cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_x86_x64_ia64_dvd_400075.iso">Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 (x86, x64, ia64)  - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: 02956D721650D0FFE6D7070315F4D899116E821D">1.73GB</td>
+								</tr>
+								<tr>
+									<td>2011-02-21</td>
+									<td><a target="_blank" href="ed2k://|file|cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619619.iso|1500217344|994486E3A542CE166219D75C8C86E7D6|/" title="cn_windows_automated_installation_kit_for_windows_7_and_windows_server_2008_r2_sp1_x86_x64_ia64_dvd_619619.iso">Windows Automated Installation Kit for Windows 7 and Windows Server 2008 R2 Service Pack 1 (x86, x64, ia64) - DVD (Chinese-Simplified)</a></td>
+									<td>Win7</td>
+									<td title="SHA1: F7C1748AF4BBC5BEAEF1D3F6BEFE7ECB25D805AE">1.4GB</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- Separator -->
+			
+			</div>		
+		</div>
+	</div>
+
+	<footer>
+		<div class="wrapper">
+			<span class="copyright">
+				&copy; Copyright &copy; 2021 2OT.CN All rights reserved.
+				
+								<p>声明：本站资源均来自于网络和官方原版，操作系统均为试用，本站不提供激活服务。
+				请在下载完成后再考虑自愿为本站捐助，下载速度与捐助无关。</p>
+			</span>
+		</div>
+	</footer>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+
+
+</body>
+</html>
